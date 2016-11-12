@@ -125,12 +125,12 @@
                     <ColumnDefinition Width="5*"></ColumnDefinition>
                     <ColumnDefinition Width="90*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <TextBlock Width="50" IsEnabled="False" Background="#FFD5DFED"></TextBlock>
-                <TextBox TextWrapping="Wrap" Width="1130" Grid.Column="1"></TextBox>
+                <TextBlock IsEnabled="False" Background="#FFD5DFED"></TextBlock>
+                <TextBox TextWrapping="Wrap" Grid.Column="1"></TextBox>
             </Grid>
         </Grid>
         <Grid Grid.Row="3" Grid.ColumnSpan="2">
-            <TextBlock Name="tbConsole" Background="#FFD5DFED"></TextBlock>
+            <TextBlock Name="tbConsole"></TextBlock>
         </Grid>
     </Grid>
     
